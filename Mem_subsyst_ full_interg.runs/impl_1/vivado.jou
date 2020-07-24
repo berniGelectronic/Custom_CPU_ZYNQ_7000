@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jul 24 17:34:45 2020
+# Process ID: 888
+# Current directory: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/impl_1
+# Command line: vivado.exe -log Mem_Subsys_Full_Interg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Mem_Subsys_Full_Interg.tcl -notrace
+# Log file: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/impl_1/Mem_Subsys_Full_Interg.vdi
+# Journal file: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Mem_Subsys_Full_Interg.tcl -notrace

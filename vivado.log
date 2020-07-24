@@ -1,0 +1,363 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jul 24 14:40:44 2020
+# Process ID: 7928
+# Current directory: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3096 D:\MSc_DSE\AUTUMN_TERM\Digital Design\Lab\Group project\CPU_Final\Mem_subsyst_ full_interg.xpr
+# Log file: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/vivado.log
+# Journal file: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Copy of Mem_subsyst_ full_interg/Mem_subsyst_ full_interg' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 841.922 ; gain = 136.391
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-1
+Top: Mem_Subsys_Full_Interg
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 928.875 ; gain = 79.113
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Mem_Subsys_Full_Interg' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:17]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'control_logic' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter param_REG_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bits' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized0' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized0' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'control_logic' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Param_Datapath' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sources_1/new/Param_Datapath.vhd:70]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bank' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized1' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized1' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+WARNING: [Synth 8-3848] Net int_data_in_reg0 in module/entity reg_bank does not have driver. [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'reg_bank' (3#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'Parameterizable_ALU' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25]
+	Parameter Data_Size bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Parameterizable_ALU' (4#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Param_Datapath' (5#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sources_1/new/Param_Datapath.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'Dual_Port_Mem' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Dual_Port_Mem.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'Dual_Port_Mem' (6#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Dual_Port_Mem.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'Mem_Manag_Unit' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Mem_Manag_Unit.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Mem_Manag_Unit' (7#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Mem_Manag_Unit.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Mem_Subsys_Full_Interg' (8#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:17]
+WARNING: [Synth 8-3331] design Param_Datapath has unconnected port OEN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 976.953 ; gain = 127.191
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[15] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[14] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[13] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[12] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[11] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[10] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[9] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[8] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[7] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[6] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[5] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[4] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[3] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[2] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[1] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[0] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 976.953 ; gain = 127.191
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc]
+Finished Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 1385.887 ; gain = 536.125
+24 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 1385.887 ; gain = 536.125
+export_ip_user_files -of_objects  [get_files {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Output_Reg.vhd}}] -no_script -reset -force -quiet
+remove_files  {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Output_Reg.vhd}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul 24 14:45:02 2020] Launched synth_1...
+Run output will be captured here: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/synth_1/runme.log
+[Fri Jul 24 14:45:02 2020] Launched impl_1...
+Run output will be captured here: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/impl_1/runme.log
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1416.559 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Mem_Subsys_Full_Interg' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:17]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'control_logic' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter param_REG_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bits' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized0' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized0' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'control_logic' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Param_Datapath' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sources_1/new/Param_Datapath.vhd:70]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bank' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized1' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized1' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+WARNING: [Synth 8-3848] Net int_data_in_reg0 in module/entity reg_bank does not have driver. [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'reg_bank' (3#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'Parameterizable_ALU' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25]
+	Parameter Data_Size bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Parameterizable_ALU' (4#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Param_Datapath' (5#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sources_1/new/Param_Datapath.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'Dual_Port_Mem' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Dual_Port_Mem.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'Dual_Port_Mem' (6#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Dual_Port_Mem.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'Mem_Manag_Unit' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Mem_Manag_Unit.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Mem_Manag_Unit' (7#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Mem_Manag_Unit.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Mem_Subsys_Full_Interg' (8#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:17]
+WARNING: [Synth 8-3331] design Param_Datapath has unconnected port OEN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1446.164 ; gain = 29.605
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[15] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[14] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[13] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[12] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[11] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[10] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[9] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[8] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[7] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[6] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[5] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[4] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[3] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[2] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[1] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[0] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1446.164 ; gain = 29.605
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc]
+Finished Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:21 . Memory (MB): peak = 1447.988 ; gain = 31.430
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/vivado_pid7928.debug)
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1447.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Mem_Subsys_Full_Interg' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:17]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'control_logic' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter param_REG_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bits' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized0' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized0' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'control_logic' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Param_Datapath' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sources_1/new/Param_Datapath.vhd:70]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bank' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized1' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized1' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+WARNING: [Synth 8-3848] Net int_data_in_reg0 in module/entity reg_bank does not have driver. [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'reg_bank' (3#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'Parameterizable_ALU' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25]
+	Parameter Data_Size bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Parameterizable_ALU' (4#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Param_Datapath' (5#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sources_1/new/Param_Datapath.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'Dual_Port_Mem' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Dual_Port_Mem.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'Dual_Port_Mem' (6#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Dual_Port_Mem.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'Mem_Manag_Unit' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Mem_Manag_Unit.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mem_Manag_Unit' (7#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Mem_Manag_Unit.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mem_Subsys_Full_Interg' (8#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:17]
+WARNING: [Synth 8-3331] design Param_Datapath has unconnected port OEN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1474.055 ; gain = 26.066
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[15] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[14] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[13] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[12] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[11] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[10] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[9] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[8] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[7] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[6] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[5] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[4] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[3] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[2] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[1] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[0] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1474.055 ; gain = 26.066
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc]
+Finished Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1511.996 ; gain = 64.008
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse -scan_for_includes {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sim_1/new/Param_Datapath_TB.vhd}}
+import_files -fileset sim_1 -norecurse {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sim_1/new/Param_Datapath_TB.vhd}}
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse -scan_for_includes {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Control_Logic/Control_Logic.srcs/sim_1/new/control_logic_TB.vhd}}
+import_files -fileset sim_1 -norecurse {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Control_Logic/Control_Logic.srcs/sim_1/new/control_logic_TB.vhd}}
+update_compile_order -fileset sim_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1511.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Mem_Subsys_Full_Interg' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:39]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'control_logic' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter param_REG_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bits' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized0' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized0' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'control_logic' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Param_Datapath' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sources_1/new/Param_Datapath.vhd:70]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bank' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29]
+	Parameter data_size bound to: 16 - type: integer 
+	Parameter reg_size bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized1' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+	Parameter data_size bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized1' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21]
+WARNING: [Synth 8-3848] Net int_data_in_reg0 in module/entity reg_bank does not have driver. [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'reg_bank' (3#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'Parameterizable_ALU' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25]
+	Parameter Data_Size bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Parameterizable_ALU' (4#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Param_Datapath' (5#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sources_1/new/Param_Datapath.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'Dual_Port_Mem' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Dual_Port_Mem.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'Dual_Port_Mem' (6#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Dual_Port_Mem.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'Mem_Manag_Unit' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Mem_Manag_Unit.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mem_Manag_Unit' (7#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Mem_Manag_Unit.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mem_Subsys_Full_Interg' (8#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:39]
+WARNING: [Synth 8-3331] design Param_Datapath has unconnected port OEN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1511.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[15] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[14] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[13] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[12] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[11] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[10] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[9] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[8] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[7] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[6] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[5] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[4] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[3] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[2] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[1] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+WARNING: [Synth 8-3295] tying undriven pin Reg0:DATA_IN[0] to constant 0 [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1511.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc]
+Finished Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1544.711 ; gain = 32.715
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul 24 17:33:00 2020] Launched synth_1...
+Run output will be captured here: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/synth_1/runme.log
+[Fri Jul 24 17:33:00 2020] Launched impl_1...
+Run output will be captured here: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/impl_1/runme.log

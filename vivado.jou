@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jul 24 14:40:44 2020
+# Process ID: 7928
+# Current directory: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3096 D:\MSc_DSE\AUTUMN_TERM\Digital Design\Lab\Group project\CPU_Final\Mem_subsyst_ full_interg.xpr
+# Log file: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/vivado.log
+# Journal file: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+export_ip_user_files -of_objects  [get_files {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Output_Reg.vhd}}] -no_script -reset -force -quiet
+remove_files  {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Output_Reg.vhd}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+refresh_design
+refresh_design
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse -scan_for_includes {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sim_1/new/Param_Datapath_TB.vhd}}
+import_files -fileset sim_1 -norecurse {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sim_1/new/Param_Datapath_TB.vhd}}
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse -scan_for_includes {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Control_Logic/Control_Logic.srcs/sim_1/new/control_logic_TB.vhd}}
+import_files -fileset sim_1 -norecurse {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Control_Logic/Control_Logic.srcs/sim_1/new/control_logic_TB.vhd}}
+update_compile_order -fileset sim_1
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

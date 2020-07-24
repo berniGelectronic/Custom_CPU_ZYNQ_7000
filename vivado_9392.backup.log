@@ -1,0 +1,512 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Dec 10 12:04:19 2019
+# Process ID: 9392
+# Current directory: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6436 M:\Digital_Design\Labs\group_project\Mem_subsyst_ full_interg\Mem_subsyst_ full_interg.xpr
+# Log file: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/vivado.log
+# Journal file: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mem_Subsys_Full_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Mem_Subsys_Full_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Mem_Manag_Unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Manag_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_Interg
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sim_1/new/Mem_Subsys_Full_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_TB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cdf5648a0e5f4c09925077a762e3f620 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mem_Subsys_Full_TB_behav xil_defaultlib.Mem_Subsys_Full_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [reg_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bank [\reg_bank(reg_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.Parameterizable_ALU [parameterizable_alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Datapath [param_datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dual_Port_Mem [dual_port_mem_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Manag_Unit [mem_manag_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Subsys_Full_Interg [mem_subsys_full_interg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mem_subsys_full_tb
+Built simulation snapshot Mem_Subsys_Full_TB_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source M:/Digital_Design/Labs/group_project/Mem_subsyst_ -notrace
+couldn't read file "M:/Digital_Design/Labs/group_project/Mem_subsyst_": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 10 12:05:04 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mem_Subsys_Full_TB_behav -key {Behavioral:sim_1:Functional:Mem_Subsys_Full_TB} -tclbatch {Mem_Subsys_Full_TB.tcl} -view {{M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_Subsys_Full_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+open_wave_config {M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_Subsys_Full_TB_behav.wcfg}
+source Mem_Subsys_Full_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mem_Subsys_Full_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 843.738 ; gain = 30.797
+run 10 us
+save_wave_config {M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_Subsys_Full_TB_behav.wcfg}
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mem_Subsys_Full_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Mem_Subsys_Full_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_Interg
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sim_1/new/Mem_Subsys_Full_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cdf5648a0e5f4c09925077a762e3f620 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mem_Subsys_Full_TB_behav xil_defaultlib.Mem_Subsys_Full_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [reg_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bank [\reg_bank(reg_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.Parameterizable_ALU [parameterizable_alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Datapath [param_datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dual_Port_Mem [dual_port_mem_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Manag_Unit [mem_manag_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Subsys_Full_Interg [mem_subsys_full_interg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mem_subsys_full_tb
+Built simulation snapshot Mem_Subsys_Full_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 155 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 155 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 155 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 884.734 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mem_Subsys_Full_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Mem_Subsys_Full_TB_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cdf5648a0e5f4c09925077a762e3f620 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mem_Subsys_Full_TB_behav xil_defaultlib.Mem_Subsys_Full_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 155 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 155 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 155 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 884.734 ; gain = 0.000
+run 10 us
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mem_Subsys_Full_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Mem_Subsys_Full_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_Interg
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sim_1/new/Mem_Subsys_Full_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cdf5648a0e5f4c09925077a762e3f620 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mem_Subsys_Full_TB_behav xil_defaultlib.Mem_Subsys_Full_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [reg_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bank [\reg_bank(reg_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.Parameterizable_ALU [parameterizable_alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Datapath [param_datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dual_Port_Mem [dual_port_mem_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Manag_Unit [mem_manag_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Subsys_Full_Interg [mem_subsys_full_interg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mem_subsys_full_tb
+Built simulation snapshot Mem_Subsys_Full_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 886.148 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mem_Subsys_Full_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Mem_Subsys_Full_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_Interg
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sim_1/new/Mem_Subsys_Full_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_TB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cdf5648a0e5f4c09925077a762e3f620 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mem_Subsys_Full_TB_behav xil_defaultlib.Mem_Subsys_Full_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [reg_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bank [\reg_bank(reg_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.Parameterizable_ALU [parameterizable_alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Datapath [param_datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dual_Port_Mem [dual_port_mem_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Manag_Unit [mem_manag_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Subsys_Full_Interg [mem_subsys_full_interg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mem_subsys_full_tb
+Built simulation snapshot Mem_Subsys_Full_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 155 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 155 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 155 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 892.215 ; gain = 1.211
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mem_Subsys_Full_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Mem_Subsys_Full_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity control_logic
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_Interg
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sim_1/new/Mem_Subsys_Full_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_TB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cdf5648a0e5f4c09925077a762e3f620 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mem_Subsys_Full_TB_behav xil_defaultlib.Mem_Subsys_Full_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [reg_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bank [\reg_bank(reg_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.Parameterizable_ALU [parameterizable_alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Datapath [param_datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dual_Port_Mem [dual_port_mem_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Manag_Unit [mem_manag_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Subsys_Full_Interg [mem_subsys_full_interg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mem_subsys_full_tb
+Built simulation snapshot Mem_Subsys_Full_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 892.215 ; gain = 0.000
+save_wave_config {M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_Subsys_Full_TB_behav.wcfg}
+save_wave_config {M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_Subsys_Full_TB_behav.wcfg}
+run 10 us
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mem_Subsys_Full_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Mem_Subsys_Full_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Dual_Port_Mem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Dual_Port_Mem
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_Interg
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sim_1/new/Mem_Subsys_Full_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cdf5648a0e5f4c09925077a762e3f620 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mem_Subsys_Full_TB_behav xil_defaultlib.Mem_Subsys_Full_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [reg_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bank [\reg_bank(reg_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.Parameterizable_ALU [parameterizable_alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Datapath [param_datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dual_Port_Mem [dual_port_mem_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Manag_Unit [mem_manag_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Subsys_Full_Interg [mem_subsys_full_interg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mem_subsys_full_tb
+Built simulation snapshot Mem_Subsys_Full_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 0  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 0 ps  Iteration: 3  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__57  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__59  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 7  Process: /Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/line__62  File: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 903.598 ; gain = 0.000
+run 10 us
+save_wave_config {M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_Subsys_Full_TB_behav.wcfg}
+save_wave_config {M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_Subsys_Full_TB_behav.wcfg}
+save_wave_config {M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_Subsys_Full_TB_behav.wcfg}

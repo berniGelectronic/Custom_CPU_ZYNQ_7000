@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr 13 13:14:58 2020
+# Process ID: 9772
+# Current directory: E:/MSc DSE/AUTUMN TERM/Digital Design/Lab/Group project/Copy of Mem_subsyst_ full_interg/Mem_subsyst_ full_interg
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10672 E:\MSc DSE\AUTUMN TERM\Digital Design\Lab\Group project\Copy of Mem_subsyst_ full_interg\Mem_subsyst_ full_interg\Mem_subsyst_ full_interg.xpr
+# Log file: E:/MSc DSE/AUTUMN TERM/Digital Design/Lab/Group project/Copy of Mem_subsyst_ full_interg/Mem_subsyst_ full_interg/vivado.log
+# Journal file: E:/MSc DSE/AUTUMN TERM/Digital Design/Lab/Group project/Copy of Mem_subsyst_ full_interg/Mem_subsyst_ full_interg\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/MSc DSE/AUTUMN TERM/Digital Design/Lab/Group project/Copy of Mem_subsyst_ full_interg/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/MSc DSE/AUTUMN TERM/Digital Design/Lab/Group project/Copy of Mem_subsyst_ full_interg/Mem_subsyst_ full_interg'
+INFO: [Project 1-313] Project file moved from 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/MSc DSE/AUTUMN TERM/Digital Design/Lab/Group project/Copy of Mem_subsyst_ full_interg/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd', nor could it be found using path 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/MSc DSE/AUTUMN TERM/Digital Design/Lab/Group project/Copy of Mem_subsyst_ full_interg/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd', nor could it be found using path 'M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:45 ; elapsed = 00:01:05 . Memory (MB): peak = 696.152 ; gain = 61.949
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 13 13:20:45 2020...

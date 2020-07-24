@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Mem_Subsys_Full_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Mem_Subsys_Full_TB" />
+            <top_module name="digeng" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10620720000fs"></ZoomStartTime>
+      <ZoomEndTime time="10833720001fs"></ZoomEndTime>
+      <Cursor1Time time="10809220000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="202"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/Mem_Subsys_Full_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/PB_rst" type="logic">
+      <obj_property name="ElementShortName">PB_rst</obj_property>
+      <obj_property name="ObjectShortName">PB_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/PB_Start" type="logic">
+      <obj_property name="ElementShortName">PB_Start</obj_property>
+      <obj_property name="ObjectShortName">PB_Start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/LEDs" type="array">
+      <obj_property name="ElementShortName">LEDs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LEDs[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/Inst_Add" type="array">
+      <obj_property name="ElementShortName">Inst_Add[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst_Add[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/RAM_Inst_to_CTRL_Unit_int" type="array">
+      <obj_property name="ElementShortName">RAM_Inst_to_CTRL_Unit_int[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_Inst_to_CTRL_Unit_int[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_PC_OUT" type="array">
+      <obj_property name="ElementShortName">int_PC_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">int_PC_OUT[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_IR_IN" type="array">
+      <obj_property name="ElementShortName">int_IR_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">int_IR_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_IR_OUT" type="array">
+      <obj_property name="ElementShortName">int_IR_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">int_IR_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/int_RAM_DATA_to_Datapath" type="array">
+      <obj_property name="ElementShortName">int_RAM_DATA_to_Datapath[15:0]</obj_property>
+      <obj_property name="ObjectShortName">int_RAM_DATA_to_Datapath[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/int_MEM_DATA_WRITE_to_Datapath" type="array">
+      <obj_property name="ElementShortName">int_MEM_DATA_WRITE_to_Datapath[15:0]</obj_property>
+      <obj_property name="ObjectShortName">int_MEM_DATA_WRITE_to_Datapath[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/int_MEM_DATA_ADD_to_Datapath" type="array">
+      <obj_property name="ElementShortName">int_MEM_DATA_ADD_to_Datapath[15:0]</obj_property>
+      <obj_property name="ObjectShortName">int_MEM_DATA_ADD_to_Datapath[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/RAM_DATA" type="array">
+      <obj_property name="ElementShortName">RAM_DATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_DATA[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/MEM_DATA_WRITE" type="array">
+      <obj_property name="ElementShortName">MEM_DATA_WRITE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_DATA_WRITE[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/MEM_DATA_ADD" type="array">
+      <obj_property name="ElementShortName">MEM_DATA_ADD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_DATA_ADD[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/int_MEM_DATA_ADD_DUMMY" type="array">
+      <obj_property name="ElementShortName">int_MEM_DATA_ADD_DUMMY[15:0]</obj_property>
+      <obj_property name="ObjectShortName">int_MEM_DATA_ADD_DUMMY[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/SHIFT_OUT_INT" type="array">
+      <obj_property name="ElementShortName">SHIFT_OUT_INT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SHIFT_OUT_INT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/MUX_1_OUT_INT" type="array">
+      <obj_property name="ElementShortName">MUX_1_OUT_INT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MUX_1_OUT_INT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/MUX_2_OUT_INT" type="array">
+      <obj_property name="ElementShortName">MUX_2_OUT_INT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MUX_2_OUT_INT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/MUX_3_OUT_INT" type="array">
+      <obj_property name="ElementShortName">MUX_3_OUT_INT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MUX_3_OUT_INT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group19" type="group">
+      <obj_property name="label">MMU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/int_data_add_in" type="array">
+         <obj_property name="ElementShortName">int_data_add_in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">int_data_add_in[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/int_Data_Add" type="array">
+         <obj_property name="ElementShortName">int_Data_Add[6:0]</obj_property>
+         <obj_property name="ObjectShortName">int_Data_Add[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Inst_Add_In" type="array">
+         <obj_property name="ElementShortName">Inst_Add_In[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Inst_Add_In[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Inst_Add_Ram" type="array">
+         <obj_property name="ElementShortName">Inst_Add_Ram[6:0]</obj_property>
+         <obj_property name="ObjectShortName">Inst_Add_Ram[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Data_Proc_In" type="array">
+         <obj_property name="ElementShortName">Data_Proc_In[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_Proc_In[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Data_Ram_In" type="array">
+         <obj_property name="ElementShortName">Data_Ram_In[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_Ram_In[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Data_Ram_Out" type="array">
+         <obj_property name="ElementShortName">Data_Ram_Out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_Ram_Out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Data_Proc_Out" type="array">
+         <obj_property name="ElementShortName">Data_Proc_Out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_Proc_Out[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Data_Add_In" type="array">
+         <obj_property name="ElementShortName">Data_Add_In[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_Add_In[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Data_Add" type="array">
+         <obj_property name="ElementShortName">Data_Add[6:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_Add[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Output_Reg" type="array">
+         <obj_property name="ElementShortName">Output_Reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Output_Reg[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Write_En_Ram" type="logic">
+         <obj_property name="ElementShortName">Write_En_Ram</obj_property>
+         <obj_property name="ObjectShortName">Write_En_Ram</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Write_En_Out_Reg" type="logic">
+         <obj_property name="ElementShortName">Write_En_Out_Reg</obj_property>
+         <obj_property name="ObjectShortName">Write_En_Out_Reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/Start_PB_resize" type="array">
+         <obj_property name="ElementShortName">Start_PB_resize[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Start_PB_resize[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/edited_memory_data" type="array">
+         <obj_property name="ElementShortName">edited_memory_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">edited_memory_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/int_LSB_16bits" type="array">
+         <obj_property name="ElementShortName">int_LSB_16bits[15:0]</obj_property>
+         <obj_property name="ObjectShortName">int_LSB_16bits[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Memory_Management_Unit/int_MSB_16bits" type="array">
+         <obj_property name="ElementShortName">int_MSB_16bits[15:0]</obj_property>
+         <obj_property name="ObjectShortName">int_MSB_16bits[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group73" type="group">
+      <obj_property name="label">CONTROL LOGIC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_IR_IN" type="array">
+         <obj_property name="ElementShortName">int_IR_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">int_IR_IN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_IR_OUT" type="array">
+         <obj_property name="ElementShortName">int_IR_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">int_IR_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_PC_OUT" type="array">
+         <obj_property name="ElementShortName">int_PC_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">int_PC_OUT[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_PC_plus_OFF_OUT" type="array">
+         <obj_property name="ElementShortName">int_PC_plus_OFF_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">int_PC_plus_OFF_OUT[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_PC_OFFSET" type="array">
+         <obj_property name="ElementShortName">int_PC_OFFSET[8:0]</obj_property>
+         <obj_property name="ObjectShortName">int_PC_OFFSET[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/MIA" type="array">
+         <obj_property name="ElementShortName">MIA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">MIA[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/RA" type="array">
+         <obj_property name="ElementShortName">RA[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RA[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/RB" type="array">
+         <obj_property name="ElementShortName">RB[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RB[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/WA" type="array">
+         <obj_property name="ElementShortName">WA[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WA[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/MEM_ADDR" type="array">
+         <obj_property name="ElementShortName">MEM_ADDR[15:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/IMM_VALUE" type="array">
+         <obj_property name="ElementShortName">IMM_VALUE[15:0]</obj_property>
+         <obj_property name="ObjectShortName">IMM_VALUE[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/ADDR_OFFSET" type="array">
+         <obj_property name="ElementShortName">ADDR_OFFSET[9:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR_OFFSET[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/PC_OFFSET" type="array">
+         <obj_property name="ElementShortName">PC_OFFSET[8:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_OFFSET[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/SHIFTER" type="array">
+         <obj_property name="ElementShortName">SHIFTER[3:0]</obj_property>
+         <obj_property name="ObjectShortName">SHIFTER[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/COND" type="array">
+         <obj_property name="ElementShortName">COND[2:0]</obj_property>
+         <obj_property name="ObjectShortName">COND[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/OEN" type="logic">
+         <obj_property name="ElementShortName">OEN</obj_property>
+         <obj_property name="ObjectShortName">OEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/SEL" type="array">
+         <obj_property name="ElementShortName">SEL[2:0]</obj_property>
+         <obj_property name="ObjectShortName">SEL[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/ALU" type="array">
+         <obj_property name="ElementShortName">ALU[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/ALU_Parameterizable/ALU_Out" type="array">
+         <obj_property name="ElementShortName">ALU_Out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_Out[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_CLB_SEL" type="logic">
+         <obj_property name="ElementShortName">int_CLB_SEL</obj_property>
+         <obj_property name="ObjectShortName">int_CLB_SEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_FLAGS_ALU" type="array">
+         <obj_property name="ElementShortName">int_FLAGS_ALU[7:0]</obj_property>
+         <obj_property name="ObjectShortName">int_FLAGS_ALU[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_OEN" type="logic">
+         <obj_property name="ElementShortName">int_OEN</obj_property>
+         <obj_property name="ObjectShortName">int_OEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/MUX_1_OUT_INT" type="array">
+         <obj_property name="ElementShortName">MUX_1_OUT_INT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">MUX_1_OUT_INT[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/MUX_2_OUT_INT" type="array">
+         <obj_property name="ElementShortName">MUX_2_OUT_INT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">MUX_2_OUT_INT[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/MUX_3_OUT_INT" type="array">
+         <obj_property name="ElementShortName">MUX_3_OUT_INT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">MUX_3_OUT_INT[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/MEM_ADD" type="array">
+         <obj_property name="ElementShortName">MEM_ADD[15:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADD[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/Inst_Out" type="array">
+         <obj_property name="ElementShortName">Inst_Out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Inst_Out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Control_Logic/int_PC_OUT" type="array">
+         <obj_property name="ElementShortName">int_PC_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">int_PC_OUT[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out" type="array">
+         <obj_property name="ElementShortName">int_reg_bank_out[31:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">int_reg_bank_out[31:0][15:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[31]" type="array">
+            <obj_property name="ElementShortName">[31][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[30]" type="array">
+            <obj_property name="ElementShortName">[30][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[29]" type="array">
+            <obj_property name="ElementShortName">[29][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[28]" type="array">
+            <obj_property name="ElementShortName">[28][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[27]" type="array">
+            <obj_property name="ElementShortName">[27][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[26]" type="array">
+            <obj_property name="ElementShortName">[26][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[25]" type="array">
+            <obj_property name="ElementShortName">[25][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[24]" type="array">
+            <obj_property name="ElementShortName">[24][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[23]" type="array">
+            <obj_property name="ElementShortName">[23][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[22]" type="array">
+            <obj_property name="ElementShortName">[22][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[21]" type="array">
+            <obj_property name="ElementShortName">[21][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[20]" type="array">
+            <obj_property name="ElementShortName">[20][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[19]" type="array">
+            <obj_property name="ElementShortName">[19][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[18]" type="array">
+            <obj_property name="ElementShortName">[18][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[17]" type="array">
+            <obj_property name="ElementShortName">[17][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[16]" type="array">
+            <obj_property name="ElementShortName">[16][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[15]" type="array">
+            <obj_property name="ElementShortName">[15][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[14]" type="array">
+            <obj_property name="ElementShortName">[14][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[13]" type="array">
+            <obj_property name="ElementShortName">[13][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[12]" type="array">
+            <obj_property name="ElementShortName">[12][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[11]" type="array">
+            <obj_property name="ElementShortName">[11][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[10]" type="array">
+            <obj_property name="ElementShortName">[10][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[9]" type="array">
+            <obj_property name="ElementShortName">[9][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[8]" type="array">
+            <obj_property name="ElementShortName">[8][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[7]" type="array">
+            <obj_property name="ElementShortName">[7][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[6]" type="array">
+            <obj_property name="ElementShortName">[6][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[5]" type="array">
+            <obj_property name="ElementShortName">[5][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[4]" type="array">
+            <obj_property name="ElementShortName">[4][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[3]" type="array">
+            <obj_property name="ElementShortName">[3][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[2]" type="array">
+            <obj_property name="ElementShortName">[2][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[1]" type="array">
+            <obj_property name="ElementShortName">[1][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[0]" type="array">
+            <obj_property name="ElementShortName">[0][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[31]" type="array">
+            <obj_property name="ElementShortName">[31][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[30]" type="array">
+            <obj_property name="ElementShortName">[30][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[29]" type="array">
+            <obj_property name="ElementShortName">[29][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[28]" type="array">
+            <obj_property name="ElementShortName">[28][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[27]" type="array">
+            <obj_property name="ElementShortName">[27][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[26]" type="array">
+            <obj_property name="ElementShortName">[26][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[25]" type="array">
+            <obj_property name="ElementShortName">[25][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[24]" type="array">
+            <obj_property name="ElementShortName">[24][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[23]" type="array">
+            <obj_property name="ElementShortName">[23][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[22]" type="array">
+            <obj_property name="ElementShortName">[22][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[21]" type="array">
+            <obj_property name="ElementShortName">[21][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[20]" type="array">
+            <obj_property name="ElementShortName">[20][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[19]" type="array">
+            <obj_property name="ElementShortName">[19][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[18]" type="array">
+            <obj_property name="ElementShortName">[18][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[17]" type="array">
+            <obj_property name="ElementShortName">[17][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[16]" type="array">
+            <obj_property name="ElementShortName">[16][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[15]" type="array">
+            <obj_property name="ElementShortName">[15][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[14]" type="array">
+            <obj_property name="ElementShortName">[14][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[13]" type="array">
+            <obj_property name="ElementShortName">[13][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[12]" type="array">
+            <obj_property name="ElementShortName">[12][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[11]" type="array">
+            <obj_property name="ElementShortName">[11][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[10]" type="array">
+            <obj_property name="ElementShortName">[10][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[9]" type="array">
+            <obj_property name="ElementShortName">[9][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[8]" type="array">
+            <obj_property name="ElementShortName">[8][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[7]" type="array">
+            <obj_property name="ElementShortName">[7][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[6]" type="array">
+            <obj_property name="ElementShortName">[6][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[5]" type="array">
+            <obj_property name="ElementShortName">[5][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[4]" type="array">
+            <obj_property name="ElementShortName">[4][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[3]" type="array">
+            <obj_property name="ElementShortName">[3][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[2]" type="array">
+            <obj_property name="ElementShortName">[2][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[1]" type="array">
+            <obj_property name="ElementShortName">[1][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/DATAPATH/Reg_Bank/int_reg_bank_out[0]" type="array">
+            <obj_property name="ElementShortName">[0][15:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group207" type="group">
+         <obj_property name="label">MEM DATA</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[64]" type="array">
+            <obj_property name="ElementShortName">[64][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[64][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[65]" type="array">
+            <obj_property name="ElementShortName">[65][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[65][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[66]" type="array">
+            <obj_property name="ElementShortName">[66][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[66][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[67]" type="array">
+            <obj_property name="ElementShortName">[67][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[67][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[68]" type="array">
+            <obj_property name="ElementShortName">[68][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[68][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[69]" type="array">
+            <obj_property name="ElementShortName">[69][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[69][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[70]" type="array">
+            <obj_property name="ElementShortName">[70][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[70][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[71]" type="array">
+            <obj_property name="ElementShortName">[71][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[71][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[72]" type="array">
+            <obj_property name="ElementShortName">[72][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[72][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[73]" type="array">
+            <obj_property name="ElementShortName">[73][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[73][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[74]" type="array">
+            <obj_property name="ElementShortName">[74][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[74][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[75]" type="array">
+            <obj_property name="ElementShortName">[75][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[75][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[76]" type="array">
+            <obj_property name="ElementShortName">[76][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[76][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[77]" type="array">
+            <obj_property name="ElementShortName">[77][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[77][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[78]" type="array">
+            <obj_property name="ElementShortName">[78][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[78][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[79]" type="array">
+            <obj_property name="ElementShortName">[79][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[79][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[80]" type="array">
+            <obj_property name="ElementShortName">[80][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[80][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[81]" type="array">
+            <obj_property name="ElementShortName">[81][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[81][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[82]" type="array">
+            <obj_property name="ElementShortName">[82][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[82][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[83]" type="array">
+            <obj_property name="ElementShortName">[83][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[83][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[84]" type="array">
+            <obj_property name="ElementShortName">[84][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[84][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[85]" type="array">
+            <obj_property name="ElementShortName">[85][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[85][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[86]" type="array">
+            <obj_property name="ElementShortName">[86][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[86][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[87]" type="array">
+            <obj_property name="ElementShortName">[87][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[87][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[88]" type="array">
+            <obj_property name="ElementShortName">[88][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[88][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[89]" type="array">
+            <obj_property name="ElementShortName">[89][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[89][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[90]" type="array">
+            <obj_property name="ElementShortName">[90][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[90][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[91]" type="array">
+            <obj_property name="ElementShortName">[91][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[91][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[92]" type="array">
+            <obj_property name="ElementShortName">[92][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[92][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[93]" type="array">
+            <obj_property name="ElementShortName">[93][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[93][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[94]" type="array">
+            <obj_property name="ElementShortName">[94][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[94][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[95]" type="array">
+            <obj_property name="ElementShortName">[95][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[95][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[96]" type="array">
+            <obj_property name="ElementShortName">[96][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[96][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[97]" type="array">
+            <obj_property name="ElementShortName">[97][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[97][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[98]" type="array">
+            <obj_property name="ElementShortName">[98][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[98][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[99]" type="array">
+            <obj_property name="ElementShortName">[99][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[99][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[100]" type="array">
+            <obj_property name="ElementShortName">[100][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[100][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[101]" type="array">
+            <obj_property name="ElementShortName">[101][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[101][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[102]" type="array">
+            <obj_property name="ElementShortName">[102][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[102][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[103]" type="array">
+            <obj_property name="ElementShortName">[103][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[103][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[104]" type="array">
+            <obj_property name="ElementShortName">[104][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[104][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[105]" type="array">
+            <obj_property name="ElementShortName">[105][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[105][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[106]" type="array">
+            <obj_property name="ElementShortName">[106][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[106][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[107]" type="array">
+            <obj_property name="ElementShortName">[107][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[107][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[108]" type="array">
+            <obj_property name="ElementShortName">[108][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[108][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[109]" type="array">
+            <obj_property name="ElementShortName">[109][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[109][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[110]" type="array">
+            <obj_property name="ElementShortName">[110][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[110][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[111]" type="array">
+            <obj_property name="ElementShortName">[111][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[111][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[112]" type="array">
+            <obj_property name="ElementShortName">[112][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[112][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[113]" type="array">
+            <obj_property name="ElementShortName">[113][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[113][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[114]" type="array">
+            <obj_property name="ElementShortName">[114][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[114][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[115]" type="array">
+            <obj_property name="ElementShortName">[115][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[115][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[116]" type="array">
+            <obj_property name="ElementShortName">[116][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[116][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[117]" type="array">
+            <obj_property name="ElementShortName">[117][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[117][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[118]" type="array">
+            <obj_property name="ElementShortName">[118][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[118][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[119]" type="array">
+            <obj_property name="ElementShortName">[119][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[119][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[120]" type="array">
+            <obj_property name="ElementShortName">[120][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[120][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[121]" type="array">
+            <obj_property name="ElementShortName">[121][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[121][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[122]" type="array">
+            <obj_property name="ElementShortName">[122][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[122][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[123]" type="array">
+            <obj_property name="ElementShortName">[123][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[123][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[124]" type="array">
+            <obj_property name="ElementShortName">[124][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[124][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[125]" type="array">
+            <obj_property name="ElementShortName">[125][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[125][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[126]" type="array">
+            <obj_property name="ElementShortName">[126][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[126][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram[127]" type="array">
+            <obj_property name="ElementShortName">[127][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[127][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/Mem_Subsys_Full_TB/UUT/Dual_Port_RAM/my_ram" type="array">
+         <obj_property name="ElementShortName">my_ram[0:127][31:0]</obj_property>
+         <obj_property name="ObjectShortName">my_ram[0:127][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

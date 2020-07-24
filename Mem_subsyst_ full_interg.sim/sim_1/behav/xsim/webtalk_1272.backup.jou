@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Dec  7 19:42:48 2019
+# Process ID: 1272
+# Current directory: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim/xsim.dir/Mem_Subsys_Full_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source M:/Digital_Design/Labs/group_project/Mem_subsyst_ -notrace

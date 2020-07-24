@@ -1,0 +1,26 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cdf5648a0e5f4c09925077a762e3f620 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mem_Subsys_Full_TB_behav xil_defaultlib.Mem_Subsys_Full_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [\reg_bits(data_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bits [reg_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_bank [\reg_bank(reg_size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.Parameterizable_ALU [parameterizable_alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Datapath [param_datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dual_Port_Mem [dual_port_mem_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Manag_Unit [mem_manag_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_Subsys_Full_Interg [mem_subsys_full_interg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mem_subsys_full_tb
+Built simulation snapshot Mem_Subsys_Full_TB_behav

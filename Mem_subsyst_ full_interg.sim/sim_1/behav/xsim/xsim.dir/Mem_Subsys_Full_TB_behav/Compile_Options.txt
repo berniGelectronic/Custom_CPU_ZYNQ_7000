@@ -1,0 +1,1 @@
+-wto "cdf5648a0e5f4c09925077a762e3f620" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Mem_Subsys_Full_TB_behav" "xil_defaultlib.Mem_Subsys_Full_TB" -log "elaborate.log" 

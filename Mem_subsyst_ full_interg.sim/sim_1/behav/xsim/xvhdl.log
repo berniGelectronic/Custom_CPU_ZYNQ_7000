@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_Interg
+INFO: [VRFC 10-163] Analyzing VHDL file "M:/Digital_Design/Labs/group_project/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.srcs/sim_1/new/Mem_Subsys_Full_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mem_Subsys_Full_TB

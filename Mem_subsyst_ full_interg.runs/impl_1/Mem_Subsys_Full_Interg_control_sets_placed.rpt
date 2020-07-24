@@ -1,0 +1,95 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Jul 24 17:36:05 2020
+| Host         : BERNY-LAP running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Mem_Subsys_Full_Interg_control_sets_placed.rpt
+| Design       : Mem_Subsys_Full_Interg
+| Device       : xc7z020
+---------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    34 |
+| Unused register locations in slices containing registers |     0 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              40 |           26 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             504 |          296 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+----------------------------------------------------+------------------+------------------+----------------+
+|  Clock Signal  |                    Enable Signal                   | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------+----------------------------------------------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/E[0]                       | PB_Rst_IBUF      |                7 |              8 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_31_out | PB_Rst_IBUF      |               12 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_33_out | PB_Rst_IBUF      |               10 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_45_out | PB_Rst_IBUF      |               10 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_35_out | PB_Rst_IBUF      |                9 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_43_out | PB_Rst_IBUF      |               10 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_59_out | PB_Rst_IBUF      |               11 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_53_out | PB_Rst_IBUF      |                8 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_39_out | PB_Rst_IBUF      |               11 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_61_out | PB_Rst_IBUF      |                9 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_37_out | PB_Rst_IBUF      |               11 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_57_out | PB_Rst_IBUF      |               12 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_41_out | PB_Rst_IBUF      |                9 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_47_out | PB_Rst_IBUF      |                7 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_49_out | PB_Rst_IBUF      |               10 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_51_out | PB_Rst_IBUF      |                8 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATAPATH/Reg_Bank/p_55_out | PB_Rst_IBUF      |                9 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__20_n_0   | PB_Rst_IBUF      |                8 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__16_n_0   | PB_Rst_IBUF      |               10 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__29_n_0   | PB_Rst_IBUF      |                7 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__25_n_0   | PB_Rst_IBUF      |                8 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__24_n_0   | PB_Rst_IBUF      |               10 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__13_n_0   | PB_Rst_IBUF      |                6 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__21_n_0   | PB_Rst_IBUF      |                9 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__8_n_0    | PB_Rst_IBUF      |                8 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__28_n_0   | PB_Rst_IBUF      |                8 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__10_n_0   | PB_Rst_IBUF      |                9 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__12_n_0   | PB_Rst_IBUF      |               11 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__26_n_0   | PB_Rst_IBUF      |                9 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__14_n_0   | PB_Rst_IBUF      |                9 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__19_n_0   | PB_Rst_IBUF      |               10 |             16 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/DATA_OUT[15]_i_2__23_n_0   | PB_Rst_IBUF      |               11 |             16 |
+|  clk_IBUF_BUFG |                                                    | PB_Rst_IBUF      |               26 |             40 |
+|  clk_IBUF_BUFG | Control_Logic/INSTR_REG/int_OEN_to_Datapath        |                  |               32 |            128 |
++----------------+----------------------------------------------------+------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 8      |                     1 |
+| 16+    |                    33 |
++--------+-----------------------+
+
+

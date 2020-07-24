@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Dec  6 13:51:01 2019
+# Process ID: 4680
+# Current directory: M:/Digital Design/Memory Subsystem and full intergartion/Mem_subsyst_ full_interg
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7920 M:\Digital Design\Memory Subsystem and full intergartion\Mem_subsyst_ full_interg\Mem_subsyst_ full_interg.xpr
+# Log file: M:/Digital Design/Memory Subsystem and full intergartion/Mem_subsyst_ full_interg/vivado.log
+# Journal file: M:/Digital Design/Memory Subsystem and full intergartion/Mem_subsyst_ full_interg\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {M:/Digital Design/Memory Subsystem and full intergartion/Mem_subsyst_ full_interg/Mem_subsyst_ full_interg.xpr}
+update_compile_order -fileset sources_1
+import_files -norecurse {{M:/Digital Design/Memory_management_Unit/Mem_Manag_Unit/Mem_Manag_Unit.srcs/sources_1/new/Mem_Manag_Unit.vhd}}
+update_compile_order -fileset sources_1

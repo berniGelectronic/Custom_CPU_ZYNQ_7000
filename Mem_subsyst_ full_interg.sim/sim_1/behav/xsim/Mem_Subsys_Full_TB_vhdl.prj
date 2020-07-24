@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/DigEng.vhd" \
+"../../../../Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Dual_Port_Mem.vhd" \
+"../../../../Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Mem_Manag_Unit.vhd" \
+"../../../../Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd" \
+"../../../../Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd" \
+"../../../../Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd" \
+"../../../../Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd" \
+"../../../../Mem_subsyst_ full_interg.srcs/sources_1/imports/new/Parameterizable_ALU.vhd" \
+"../../../../Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sources_1/new/Param_Datapath.vhd" \
+"../../../../Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd" \
+"../../../../Mem_subsyst_ full_interg.srcs/sim_1/new/Mem_Subsys_Full_TB.vhd" \
+
+# Do not sort compile order
+nosort
