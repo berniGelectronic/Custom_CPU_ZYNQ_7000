@@ -361,3 +361,13 @@ launch_runs impl_1 -to_step write_bitstream -jobs 8
 Run output will be captured here: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/synth_1/runme.log
 [Fri Jul 24 17:33:00 2020] Launched impl_1...
 Run output will be captured here: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/impl_1/runme.log
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc]
+Finished Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).

@@ -1,0 +1,868 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 7928
+License: Customer
+
+Current time: 	Fri Jul 24 14:40:56 CEST 2020
+Time zone: 	Central European Time (Europe/Belgrade)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 82 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	admin
+User home directory: C:/Users/admin
+User working directory: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.4
+RDI_DATADIR: C:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/vivado.log
+Vivado journal file location: 	D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/vivado.jou
+Engine tmp dir: 	D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/.Xil/Vivado-7928-BERNY-LAP
+
+GUI allocated memory:	196 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 551 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 53 MB (+53124kb) [00:00:05]
+// [Engine Memory]: 466 MB (+336706kb) [00:00:05]
+// Opening Vivado Project: D:\MSc_DSE\AUTUMN_TERM\Digital Design\Lab\Group project\CPU_Final\Mem_subsyst_ full_interg.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Copy of Mem_subsyst_ full_interg/Mem_subsyst_ full_interg' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 546 MB (+60233kb) [00:00:07]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 78 MB (+22961kb) [00:00:09]
+// [Engine Memory]: 625 MB (+54291kb) [00:00:09]
+// [GUI Memory]: 89 MB (+7474kb) [00:00:10]
+// [GUI Memory]: 95 MB (+2406kb) [00:00:11]
+// [Engine Memory]: 667 MB (+10793kb) [00:00:11]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 669 MB. GUI used memory: 45 MB. Current time: 7/24/20 2:41:00 PM CEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 841.922 ; gain = 136.391 
+// Project name: Mem_subsyst_ full_interg; location: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Output_Reg.vhd]", 2, false); // B (D, cj)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "6"); // h (f, cj)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 5); // ah (O, cj)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 11); // ah (O, cj)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design]", 12); // ah (O, cj)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1]", 1); // ah (O, cj)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1]", 2); // ah (O, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 3); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 3, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 3, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// x (cj): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // x (cj)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7z020clg484-1 Top: Mem_Subsys_Full_Interg 
+// [Engine Memory]: 712 MB (+12598kb) [00:01:02]
+// HMemoryUtils.trashcanNow. Engine heap size: 727 MB. GUI used memory: 47 MB. Current time: 7/24/20 2:41:53 PM CEST
+// [Engine Memory]: 827 MB (+82861kb) [00:01:12]
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 920 MB (+54398kb) [00:01:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 989 MB. GUI used memory: 46 MB. Current time: 7/24/20 2:42:08 PM CEST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,092 MB. GUI used memory: 46 MB. Current time: 7/24/20 2:42:10 PM CEST
+// [Engine Memory]: 1,092 MB (+131577kb) [00:01:22]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2017.4/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.7s
+// [Engine Memory]: 1,226 MB (+83459kb) [00:01:23]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 928.875 ; gain = 79.113 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Mem_Subsys_Full_Interg' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:17] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'control_logic' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter param_REG_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bits' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 8 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bits' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized0' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 32 - type: integer  
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bank' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized1' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized1' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bank' (3#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29] INFO: [Synth 8-638] synthesizing module 'Parameterizable_ALU' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25] 
+// Tcl Message: 	Parameter Data_Size bound to: 16 - type: integer  
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 976.953 ; gain = 127.191 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 976.953 ; gain = 127.191 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z020clg484-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc] Finished Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 1385.887 ; gain = 536.125 
+// Tcl Message: 24 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 1385.887 ; gain = 536.125 
+// 'dO' command handler elapsed time: 25 seconds
+// Elapsed time: 24 seconds
+dismissDialog("Open Elaborated Design"); // bs (cj)
+// PAPropertyPanels.initPanels (Output_reg (reg_bits__parameterized1)) elapsed time: 0.3s
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[Mem_Subsys_Full_Interg, Output_reg (reg_bits__parameterized1)]", 6, false); // aW (O, cj)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[Mem_Subsys_Full_Interg, Output_reg (reg_bits__parameterized1)]", 6); // aW (O, cj)
+// [GUI Memory]: 101 MB (+695kb) [00:01:33]
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[Mem_Subsys_Full_Interg, Output_reg (reg_bits__parameterized1)]", 6); // aW (O, cj)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 3); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Output_reg : reg_bits(Behavioral) (reg_bits.vhd)]", 6, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Output_Reg.vhd]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Output_Reg.vhd]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Output_Reg.vhd]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Output_reg : reg_bits(Behavioral) (reg_bits.vhd)]", 6, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Output_reg : reg_bits(Behavioral) (reg_bits.vhd)]", 6, false, false, false, false, false, true); // B (D, cj) - Double Click
+// [GUI Memory]: 107 MB (+1524kb) [00:01:44]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Output_Reg.vhd]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Output_Reg.vhd]", 2, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, cj)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as (cj): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (as)
+dismissDialog("Remove Sources"); // as (cj)
+// as (cj): Remove Sources: addNotify
+// bs (as):  Remove Sources : addNotify
+// [GUI Memory]: 114 MB (+1123kb) [00:01:48]
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Output_Reg.vhd}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Output_Reg.vhd}} 
+dismissDialog("Remove Sources"); // bs (as)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 122 MB (+2413kb) [00:01:57]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mem_Subsys_Full_Interg.vhd", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // k (j, cj)
+// Elapsed time: 12 seconds
+selectButton(PAResourceQtoS.SchematicView_REGENERATE, "Schematic_refresh"); // B (f, cj)
+selectButton(PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION, (String) null); // u (f, cj): TRUE
+// Run Command: PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION
+selectButton(PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION, (String) null); // u (f, cj): FALSE
+// Run Command: PAResourceCommand.PACommandNames_AUTO_FIT_SELECTION
+// PAPropertyPanels.initPanels (Dual_Port_RAM (Dual_Port_Mem)) elapsed time: 0.2s
+// [GUI Memory]: 132 MB (+3825kb) [00:02:49]
+// PAPropertyPanels.initPanels (PB_Rst) elapsed time: 0.3s
+// Elapsed time: 47 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Control_Logic : control_logic(Behavioral) (control_logic.vhd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Control_Logic : control_logic(Behavioral) (control_logic.vhd)]", 2, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), DATAPATH : Param_Datapath(Behavioral) (Param_Datapath.vhd)]", 5, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), DATAPATH : Param_Datapath(Behavioral) (Param_Datapath.vhd)]", 5, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Dual_Port_RAM : Dual_Port_Mem(Behavioral) (Dual_Port_Mem.vhd)]", 9, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Dual_Port_RAM : Dual_Port_Mem(Behavioral) (Dual_Port_Mem.vhd)]", 9, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Memory_Management_Unit : Mem_Manag_Unit(Behavioral) (Mem_Manag_Unit.vhd)]", 10, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Memory_Management_Unit : Mem_Manag_Unit(Behavioral) (Mem_Manag_Unit.vhd)]", 10, false, false, false, false, false, true); // B (D, cj) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,247 MB. GUI used memory: 84 MB. Current time: 7/24/20 2:44:28 PM CEST
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // x (cj)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jul 24 14:45:02 2020] Launched synth_1... Run output will be captured here: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/synth_1/runme.log [Fri Jul 24 14:45:02 2020] Launched impl_1... Run output will be captured here: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Control_Logic : control_logic(Behavioral) (control_logic.vhd)]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), DATAPATH : Param_Datapath(Behavioral) (Param_Datapath.vhd)]", 3); // B (D, cj)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Control_Logic : control_logic(Behavioral) (control_logic.vhd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Control_Logic : control_logic(Behavioral) (control_logic.vhd)]", 2, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), DATAPATH : Param_Datapath(Behavioral) (Param_Datapath.vhd)]", 5, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), DATAPATH : Param_Datapath(Behavioral) (Param_Datapath.vhd)]", 5, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), DATAPATH : Param_Datapath(Behavioral) (Param_Datapath.vhd)]", 5); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Control_Logic : control_logic(Behavioral) (control_logic.vhd)]", 2); // B (D, cj)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, CPU_Output_LEDS.xdc]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, CPU_Output_LEDS.xdc]", 4, false, false, false, false, false, true); // B (D, cj) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mem_Subsys_Full_TB(Behavioral) (Mem_Subsys_Full_TB.vhd)]", 7, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mem_Subsys_Full_TB(Behavioral) (Mem_Subsys_Full_TB.vhd)]", 7, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mem_Subsys_Full_TB(Behavioral) (Mem_Subsys_Full_TB.vhd), UUT : Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 8, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mem_Subsys_Full_TB(Behavioral) (Mem_Subsys_Full_TB.vhd), UUT : Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Output_reg : reg_bits(Behavioral) (reg_bits.vhd)]", 11, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mem_Subsys_Full_TB(Behavioral) (Mem_Subsys_Full_TB.vhd), UUT : Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), DATAPATH : Param_Datapath(Behavioral) (Param_Datapath.vhd)]", 10, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mem_Subsys_Full_TB(Behavioral) (Mem_Subsys_Full_TB.vhd), UUT : Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), DATAPATH : Param_Datapath(Behavioral) (Param_Datapath.vhd)]", 10, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mem_Subsys_Full_TB(Behavioral) (Mem_Subsys_Full_TB.vhd), UUT : Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), DATAPATH : Param_Datapath(Behavioral) (Param_Datapath.vhd)]", 10, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mem_Subsys_Full_TB(Behavioral) (Mem_Subsys_Full_TB.vhd), UUT : Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), DATAPATH : Param_Datapath(Behavioral) (Param_Datapath.vhd)]", 10, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mem_Subsys_Full_TB(Behavioral) (Mem_Subsys_Full_TB.vhd), UUT : Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 8); // B (D, cj)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 166 seconds
+selectCodeEditor("Dual_Port_Mem.vhd", 362, 252); // cd (w, cj)
+typeControlKey((HResource) null, "Dual_Port_Mem.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("Dual_Port_Mem.vhd", 231, 328); // cd (w, cj)
+typeControlKey(null, null, 'z');
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify
+// Elapsed time: 40 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aF (Q, cj)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF (Q, cj)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF (Q, cj)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aF (Q, cj)
+selectCodeEditor("Dual_Port_Mem.vhd", 298, 318); // cd (w, cj)
+typeControlKey((HResource) null, "Dual_Port_Mem.vhd", 'v'); // cd (w, cj)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "Dual_Port_Mem.vhd", 'v'); // cd (w, cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cZ, cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 139 MB (+375kb) [00:09:47]
+// bs (cj):  Reloading : addNotify
+// Tcl Message: refresh_design 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: ELABORATE_START
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1416.559 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Mem_Subsys_Full_Interg' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:17] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'control_logic' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter param_REG_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bits' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 8 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bits' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized0' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 32 - type: integer  
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bank' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized1' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized1' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,288 MB. GUI used memory: 86 MB. Current time: 7/24/20 2:50:48 PM CEST
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// [Engine Memory]: 1,288 MB (+376kb) [00:10:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,288 MB. GUI used memory: 87 MB. Current time: 7/24/20 2:50:51 PM CEST
+// Engine heap size: 1,288 MB. GUI used memory: 88 MB. Current time: 7/24/20 2:50:51 PM CEST
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bank' (3#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29] INFO: [Synth 8-638] synthesizing module 'Parameterizable_ALU' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25] 
+// Tcl Message: 	Parameter Data_Size bound to: 16 - type: integer  
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1446.164 ; gain = 29.605 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1446.164 ; gain = 29.605 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,288 MB. GUI used memory: 57 MB. Current time: 7/24/20 2:50:53 PM CEST
+// Xgd.load filename: C:/Xilinx/Vivado/2017.4/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.7s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc] Finished Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:21 . Memory (MB): peak = 1447.988 ; gain = 31.430 
+// Elapsed time: 21 seconds
+dismissDialog("Reloading"); // bs (cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 1); // B (D, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mem_Subsys_Full_Interg.vhd", 2); // k (j, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Dual_Port_RAM : Dual_Port_Mem(Behavioral) (Dual_Port_Mem.vhd)]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Dual_Port_RAM : Dual_Port_Mem(Behavioral) (Dual_Port_Mem.vhd)]", 5, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 35 seconds
+selectCodeEditor("Dual_Port_Mem.vhd", 344, 183); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Output_reg : reg_bits(Behavioral) (reg_bits.vhd)]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Output_reg : reg_bits(Behavioral) (reg_bits.vhd)]", 4, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("reg_bits.vhd", 52, 112); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Memory_Management_Unit : Mem_Manag_Unit(Behavioral) (Mem_Manag_Unit.vhd)]", 6, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Memory_Management_Unit : Mem_Manag_Unit(Behavioral) (Mem_Manag_Unit.vhd)]", 6, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, cj) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Memory_Management_Unit : Mem_Manag_Unit(Behavioral) (Mem_Manag_Unit.vhd)]", 6, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd), Memory_Management_Unit : Mem_Manag_Unit(Behavioral) (Mem_Manag_Unit.vhd)]", 6, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("Mem_Manag_Unit.vhd", 129, 264); // cd (w, cj)
+typeControlKey((HResource) null, "Mem_Manag_Unit.vhd", 'v'); // cd (w, cj)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2017.4 (64-bit)
+# SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Current time: Fri Jul 24 14:52:52 CEST 2020
+# Process ID: 7928
+# OS: Windows 10
+# User: admin
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.NullPointerException (See D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/vivado_pid7928.debug)
+*/
+selectButton(RDIResource.HExceptionDialog_CONTINUE, "Continue"); // a (ab, X)
+selectCodeEditor("Mem_Manag_Unit.vhd", 178, 258); // cd (w, cj)
+selectCodeEditor("Mem_Manag_Unit.vhd", 137, 275); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("Mem_Manag_Unit.vhd", 152, 449); // cd (w, cj)
+typeControlKey((HResource) null, "Mem_Manag_Unit.vhd", 'v'); // cd (w, cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cZ, cj)
+// bs (cj):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1447.988 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 69 MB. Current time: 7/24/20 2:53:39 PM CEST
+// Engine heap size: 1,331 MB. GUI used memory: 70 MB. Current time: 7/24/20 2:53:39 PM CEST
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Mem_Subsys_Full_Interg' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:17] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'control_logic' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter param_REG_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bits' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 8 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bits' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized0' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 32 - type: integer  
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bank' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized1' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized1' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bank' (3#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29] INFO: [Synth 8-638] synthesizing module 'Parameterizable_ALU' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25] 
+// Tcl Message: 	Parameter Data_Size bound to: 16 - type: integer  
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1474.055 ; gain = 26.066 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1474.055 ; gain = 26.066 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 60 MB. Current time: 7/24/20 2:53:41 PM CEST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc] Finished Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1511.996 ; gain = 64.008 
+// Elapsed time: 18 seconds
+dismissDialog("Reloading"); // bs (cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mem_Subsys_Full_TB(Behavioral) (Mem_Subsys_Full_TB.vhd)]", 12); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 10, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 42 seconds
+dismissFileChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// HOptionPane Error: 'Please use ASCII characters in your file name. (Non-ASCII Characters Found)'
+// Elapsed time: 42 seconds
+dismissFileChooser();
+selectButton("RDIResource.SwingUtils_NON_ASCII_CHARACTERS_FOUND_OK", "OK"); // JButton (A, G)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 11 seconds
+setFileChooser("D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sim_1/new/Param_Datapath_TB.vhd");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+dismissFileChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// HOptionPane Error: 'Invalid file 'D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/control_logic_TB.vhd'. File does not exist. (Invalid File)'
+// Elapsed time: 34 seconds
+selectButton("RDIResource.HChooserHelpers_INVALID_FILE_FILE_DOES_NOT_EXIST_OK", "OK"); // JButton (A, H)
+dismissFileChooser();
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 153 seconds
+dismissDialog("Add Sources"); // c (cj)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// c (cj): Add Sources: addNotify
+// bs (c):  Add Simulation Sources  : addNotify
+// Tcl Message: add_files -fileset sim_1 -norecurse -scan_for_includes {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sim_1/new/Param_Datapath_TB.vhd}} 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset sim_1 -norecurse {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Param_Datapath/Param_Datapath/Param_Datapath.srcs/sim_1/new/Param_Datapath_TB.vhd}} 
+dismissDialog("Add Simulation Sources"); // bs (c)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Param_Datapath_TB(Behavioral) (Param_Datapath_TB.vhd)]", 13, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Param_Datapath_TB(Behavioral) (Param_Datapath_TB.vhd)]", 13, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Param_Datapath_TB(Behavioral) (Param_Datapath_TB.vhd)]", 13); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 11, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // Z (ai, cj)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RESET, "Reset Simulation"); // Z (ai, cj)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 558 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 11, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // Z (ai, cj)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RESET, "Reset Simulation"); // Z (ai, cj)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 14 seconds
+setFileChooser("D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Control_Logic/Control_Logic.srcs/sim_1/new/control_logic_TB.vhd");
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 18 seconds
+dismissDialog("Add Sources"); // c (cj)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// c (cj): Add Sources: addNotify
+// bs (c):  Add Simulation Sources  : addNotify
+// Tcl Message: add_files -fileset sim_1 -norecurse -scan_for_includes {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Control_Logic/Control_Logic.srcs/sim_1/new/control_logic_TB.vhd}} 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset sim_1 -norecurse {{D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/Control_Logic/Control_Logic.srcs/sim_1/new/control_logic_TB.vhd}} 
+dismissDialog("Add Simulation Sources"); // bs (c)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, control_logic_TB(Behavioral) (control_logic_TB.vhd)]", 14, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, control_logic_TB(Behavioral) (control_logic_TB.vhd), UUT : control_logic(Behavioral) (control_logic.vhd)]", 15, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// [GUI Memory]: 146 MB (+478kb) [00:25:58]
+// [GUI Memory]: 153 MB (+169kb) [00:38:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 99 MB. Current time: 7/24/20 3:23:44 PM CEST
+// Elapsed time: 2100 seconds
+selectCodeEditor("control_logic_TB.vhd", 142, 458); // cd (w, cj)
+selectCodeEditor("control_logic_TB.vhd", 237, 331); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mem_Subsys_Full_Interg(Behavioral) (Mem_Subsys_Full_Interg.vhd)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 57 seconds
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 298, 257); // cd (w, cj)
+typeControlKey((HResource) null, "Mem_Subsys_Full_Interg.vhd", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "Mem_Subsys_Full_Interg.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 75, 471); // cd (w, cj)
+typeControlKey((HResource) null, "Mem_Subsys_Full_Interg.vhd", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "Mem_Subsys_Full_Interg.vhd", 'v'); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 40 seconds
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 353, 224); // cd (w, cj)
+// Elapsed time: 31 seconds
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 143, 237); // cd (w, cj)
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 128, 251); // cd (w, cj)
+// Elapsed time: 119 seconds
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 215, 75); // cd (w, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 101 MB. Current time: 7/24/20 3:53:44 PM CEST
+// Elapsed time: 832 seconds
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 437, 112); // cd (w, cj)
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 80, 97); // cd (w, cj)
+// Elapsed time: 283 seconds
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 344, 107); // cd (w, cj)
+// Elapsed time: 13 seconds
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 1, 109); // cd (w, cj)
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 374, 114); // cd (w, cj)
+// Elapsed time: 34 seconds
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 281, 171); // cd (w, cj)
+// Elapsed time: 13 seconds
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 234, 150); // cd (w, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 108 MB. Current time: 7/24/20 4:23:45 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 114 MB. Current time: 7/24/20 4:53:45 PM CEST
+// [GUI Memory]: 162 MB (+1269kb) [02:31:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 121 MB. Current time: 7/24/20 5:23:46 PM CEST
+// Elapsed time: 5163 seconds
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 141, 134); // cd (w, cj)
+selectCodeEditor("Mem_Subsys_Full_Interg.vhd", 106, 171); // cd (w, cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cZ, cj)
+// bs (cj):  Reloading : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: ELABORATE_START
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1511.996 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Mem_Subsys_Full_Interg' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/new/Mem_Subsys_Full_Interg.vhd:39] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'control_logic' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/new/control_logic.vhd:52] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter param_REG_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bits' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 8 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bits' (1#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized0' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 32 - type: integer  
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bank' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  	Parameter reg_size bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'reg_bits__parameterized1' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: 	Parameter data_size bound to: 16 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bits__parameterized1' (2#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bits.vhd:21] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'reg_bank' (3#1) [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/parameterizable_register_bank/parameterizable_register_bank.srcs/sources_1/new/reg_bank.vhd:29] INFO: [Synth 8-638] synthesizing module 'Parameterizable_ALU' [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/sources_1/imports/Digital Design/Parameterizable_ALU/Parameterizable_ALU.srcs/sources_1/new/Parameterizable_ALU.vhd:25] 
+// Tcl Message: 	Parameter Data_Size bound to: 16 - type: integer  
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1511.996 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1511.996 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 131 MB. Current time: 7/24/20 5:32:42 PM CEST
+// Engine heap size: 1,331 MB. GUI used memory: 132 MB. Current time: 7/24/20 5:32:42 PM CEST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 100 MB. Current time: 7/24/20 5:32:45 PM CEST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc] Finished Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1544.711 ; gain = 32.715 
+// Elapsed time: 31 seconds
+dismissDialog("Reloading"); // bs (cj)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // x (cj)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cj)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_LAUNCH
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jul 24 17:33:00 2020] Launched synth_1... Run output will be captured here: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/synth_1/runme.log [Fri Jul 24 17:33:00 2020] Launched impl_1... Run output will be captured here: D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.runs/impl_1/runme.log 
+// [GUI Memory]: 172 MB (+1331kb) [02:52:12]
+dismissDialog("Generate Bitstream"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (cj): Bitstream Generation Completed: addNotify
+// Elapsed time: 744 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "impl_1_route_report_timing_summary_0 ; Report timing summary (report_timing_summary) ; check_timing_verbose = false; setup = false; hold = false; max_paths = 10; unique_pins = false; report_unconstrained = false; warn_on_violation = false;  ; Fri Jul 24 17:37:25 CEST 2020 ; 144041", 29, "impl_1_route_report_timing_summary_0", 0, false); // M (O, cj)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "impl_1_route_report_timing_summary_0 ; Report timing summary (report_timing_summary) ; check_timing_verbose = false; setup = false; hold = false; max_paths = 10; unique_pins = false; report_unconstrained = false; warn_on_violation = false;  ; Fri Jul 24 17:37:25 CEST 2020 ; 144041", 29); // M (O, cj)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "impl_1_route_report_timing_summary_0 ; Report timing summary (report_timing_summary) ; check_timing_verbose = false; setup = false; hold = false; max_paths = 10; unique_pins = false; report_unconstrained = false; warn_on_violation = false;  ; Fri Jul 24 17:37:25 CEST 2020 ; 144041", 29, "impl_1_route_report_timing_summary_0", 0, false, false, false, false, false, true); // M (O, cj) - Double Click
+// [GUI Memory]: 180 MB (+8kb) [03:08:24]
+// Elapsed time: 239 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 19, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cj) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cj) - Node
+closeView(PAResourceOtoP.PAViews_PAR_REPORT, "PAR Report"); // c
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true, false, false, false, true, false); // u (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN, "Reload Design"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_RELOAD_RTL_DESIGN
+// bs (cj):  Reloading : addNotify
+selectButton("PAResourceQtoS.ReloadDesign_DESIGN_UP_TO_DATE_RELOAD_ANYWAY_OK", "OK"); // JButton (A, G)
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 132 MB. Current time: 7/24/20 5:49:45 PM CEST
+// Engine heap size: 1,331 MB. GUI used memory: 133 MB. Current time: 7/24/20 5:49:45 PM CEST
+// Tcl Message: refresh_design 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 108 MB. Current time: 7/24/20 5:49:47 PM CEST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc] Finished Parsing XDC File [D:/MSc_DSE/AUTUMN_TERM/Digital Design/Lab/Group project/CPU_Final/Mem_subsyst_ full_interg.srcs/constrs_1/new/CPU_Output_LEDS.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// 'e' command handler elapsed time: 6 seconds
+dismissDialog("Reloading"); // bs (cj)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_logic.vhd", 4); // k (j, cj)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_bits.vhd", 3); // k (j, cj)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // k (j, cj)
+floatView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: float view
+// [GUI Memory]: 355 MB (+173169kb) [03:09:31]
+// Elapsed time: 99 seconds
+dockFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // ax (aF, FrameFloatingContainer)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: dock view
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mem_Subsys_Full_Interg.vhd", 1); // k (j, cj)
